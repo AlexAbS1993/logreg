@@ -1,7 +1,7 @@
 import { IReport } from 'return_report_library';
 import { IRequredCommandType } from '../types';
 import { changePasswordDataExecuteType, IRegUser, regUserDTOType } from './types';
-export default class RegUser implements IRegUser {
+export class RegUser implements IRegUser {
     private login: string
     private password: string
     private hash: string

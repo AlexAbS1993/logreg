@@ -1,7 +1,7 @@
 import Report from "return_report_library";
 import { FactoryAdditionsEnum, IFactoryRegUser, IRegUser, regUserDTOType, RegUserSystemsEnum } from "./types";
 import { IRequiredSelectorType } from "../types";
-import RegUser from "./entitie";
+import { RegUser } from "./entitie";
 
 /**
  * Фабрика для сбора сущности зарегистрированного пользователя. Здесь можно указать 

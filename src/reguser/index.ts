@@ -1,2 +1,3 @@
-export * as RegUser from "./entitie";
-export * as FactoryRegUser from './factory'
+export { IFactoryRegUser, IRegUser, regUserDTOType } from './types'
+export { RegUser } from "./entitie";
+export { FactoryRegUser } from './factory'
